@@ -1,0 +1,147 @@
+
+body {
+  background-color: #FFDF87;
+  margin: 0; 
+  font-family: sans-serif; 
+   margin: 0;
+  padding: 0;
+  overflow-x: hidden;  
+   overflow-y: auto;    
+   width: 100%;
+  height: 100%; 
+}
+
+
+.site-header {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem; 
+  padding: 1rem 2rem;
+}
+@font-face {
+  font-family: 'DigiGhafBold';
+  src: url('/Digi\ Ghaf\ Bold.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Typokar1';
+  src: url('/typokar\ 1\ UPDATE.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.header-image {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 0.6rem; 
+  order: 0; 
+  position: relative;
+  right: 545px;
+  top: 120px;
+}
+
+
+.header-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  order: 1; 
+}
+
+.header-texts h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: #FF2727;
+  position: relative;
+  right: 170px;
+  top: 25px;
+  font-family: DigiGhafBold;
+}
+
+.header-texts p {
+  font-size: 3rem;
+  color: #FF2727;
+  position: relative;
+  right: 220px;
+  bottom: 29px;
+  font-family: DigiGhafBold;
+}
+
+
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .header-image {
+    margin-top: 1rem;
+    width: 60px;
+    order: 0;
+  }
+  
+  .header-texts {
+    order: 1;
+  }
+}
+.image-section{
+    position: relative;
+    right: 440px;
+    top: 110px;
+    
+}
+.doorbin{
+    position: relative;
+    top: 150px;
+    right: 450px;
+}
+.matn_doorbin{
+        position: relative;
+    top: 10px;
+    right: 450px;
+    font-family: Typokar1;
+}
+.main-image5{
+        position: relative;
+    top: 50px;
+    right: 439px;
+}
+.overlay-image_img1{
+    position: relative;
+    top: 20px;
+    right: 300px;
+}
+.overlay-image_img2{
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
+.overlay-image_img3{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+.image-box86{
+    position: relative;
+    right: 560px;
+    top: 50px;
+}
+.image_box88{
+        position: relative;
+    right: 458px;
+    top: 20px;
+ width: 350px;
+}
+.hidden-link {
+  text-decoration: none;  
+  color: inherit;         
+  cursor: pointer;   
+          position: relative;
+    right: 497px;
+    bottom: 40px;    
+    
+         font-family: Typokar1; 
+}

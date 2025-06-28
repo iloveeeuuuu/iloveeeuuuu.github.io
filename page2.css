@@ -1,0 +1,116 @@
+body {
+  background-color: #FFDF87;
+  margin: 0; 
+  font-family: sans-serif; 
+   margin: 0;
+  padding: 0;
+  overflow-x: hidden;  
+   overflow-y: auto;    
+   width: 100%;
+  height: 100%; 
+}
+
+
+@font-face {
+  font-family: 'Typokar1';
+  src: url('/typokar\ 1\ UPDATE.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.infinite-box {
+  position: relative;
+  display: inline-block;
+}
+
+.infinite-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 75px;
+  left: 100px;
+  width: 30px;
+  height: 10px;
+  background: #C6E3FE;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Typokar1;
+  transition: background 0.3s;
+  text-align: center;
+}
+
+.overlay-text:hover {
+  background: #C6E3FE;
+}
+
+.infinity-symbol {
+  position: absolute;
+  top: 52%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: rgba(243, 243, 243, 0.432);
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+.rectangle-image {
+  width: 100%; 
+  margin: 30px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  left: 15px;
+
+}
+
+.rectangle-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.x89_boxAlpha_Yz {
+  position: relative;
+  width: 85%;
+  margin: 40px auto;
+  border-radius: 14px;
+  overflow: hidden;
+  
+}
+
+.img--zx82_Kq {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.txt__ONimg_g47 {
+  width: 80%; 
+  white-space: normal; 
+  word-wrap: break-word;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  color: #2b2b2b;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  font-family: kalameh;
+  position: relative;
+  bottom: 190px;
+  left: 25px;
+
+}
+@font-face {
+  font-family: 'Kalameh';
+  src: url('./fonts/Kalameh_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
